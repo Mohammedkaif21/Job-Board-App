@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import file from '../assets/file.svg'
 import axios from 'axios'
+import { ApplyJob } from "./ApplyJob";
 
 const Home = ()=>{
     const [jobs,setJobs] = useState([]);
@@ -38,9 +39,8 @@ const Home = ()=>{
                                 <h6 className="card-subtitle mb-2 text-muted">{job.company}</h6>
                                 <p className="card-text">{job.location}</p>
                                 <p className="card-text small">{job.description}</p>
-                                <Link to={`/jobs/${job.id}`} className="btn btn-outline-primary w-100">
-                                    View Details
-                                </Link>
+                                <Link to={`/jobs/${job.id}`} className="btn btn-outline-primary me-3">View Details</Link>
+                                <Link to={`/apply-job/${job.id}`} className="btn btn-outline-primary">Apply Now</Link>
                             </div>
                         </div>
                     </div>

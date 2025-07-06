@@ -25,7 +25,7 @@ const JobDetails = () => {
                 <p className="card-text">{job.location}</p>
                 <p className="card-text small">{job.description}</p>
                 <p></p>
-                <button onClick={() => navigate(`/apply/${job.id}`)} className="btn btn-success">Apply now</button>
+                <button onClick={() => navigate(`/apply-job/${job.id}`)} className="btn btn-success">Apply now</button>
             </div>
         </div>
     )

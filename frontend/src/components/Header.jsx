@@ -16,9 +16,6 @@ const Header=()=>{
             <li className="nav-item socialLink">
               <Link className="nav-link" to="/post-job">Post a Job</Link>
             </li>
-            <li className="nav-item socialLink">
-              <Link className="nav-link" to="/apply-job">Apply Jobs</Link>
-            </li>
           </ul>
         </div>
       </div>
