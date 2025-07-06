@@ -33,5 +33,19 @@
     "company": "Matellio",
     "location": "Jodhpur, India",
     "description": "Unit testing, Smoke Testing"
+  },
+  {
+    "id": 6,
+    "title": "junior frontend developer",
+    "company": "xyz",
+    "location": "india",
+    "description": "i want a webdeveloper"
+  },
+  {
+    "id": 7,
+    "title": "Qa Lead",
+    "company": "abc",
+    "location": "india",
+    "description": "i want a qa lead"
   }
 ]
