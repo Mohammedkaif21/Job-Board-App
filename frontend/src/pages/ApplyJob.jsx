@@ -55,7 +55,7 @@ export const ApplyJob =()=>{
                 </div>
                 <div class="mb-3">
                     <label class="form-label">Resume</label>
-                    <input type="file" placeholder="Enter Resume File" class="form-control" name="resume" value={applyData.resume} onChange={changeData} required/>
+                    <input type="text" placeholder="Enter Resume Url" class="form-control" name="resume" value={applyData.resume} onChange={changeData} required/>
                 </div>
                 <div class="mb-3">
                     <label class="form-label">Phone no</label>

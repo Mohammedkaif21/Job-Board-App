@@ -24,7 +24,7 @@
     "title": "Node js",
     "company": "Matellio",
     "experience": "2-5years",
-    "location": "jodhpur,india",
+    "location": "Jodhpur,india",
     "lastDate": "2025-07-15",
     "description": "Must Have Node JS Developer Skills | The Ultimate ListA Node.js developer needs a mix of technical and soft skills. Key technical skills include proficiency in JavaScript, Node.js, and relevant frameworks like Express.js. They should also be comfortable with database management, RESTful API development, and security practices",
     "skillRequired": "JavaScript Proficiency:Node.js is built on JavaScript, so a deep understanding of the language's syntax, functions, and asynchronous programming is essential.Node.js Core Knowledge:A strong grasp of Node.js architecture, its event loop, and the Node.js API is crucial.Frameworks (e.g., Express.js):Familiarity with Node.js frameworks like Express.js simplifies development by providing pre-built functionalities.API Development:Developing and consuming RESTful APIs is a core responsibility, enabling communication between Applications.Database Management:Node.js developers need to manage databases like MongoDB or MySQL for data storage and retrieval.Asynchronous Programming:Node.js relies on asynchronous programming (callbacks, promises, async/await) to handle multiple tasks concurrently and efficiently."
@@ -41,7 +41,7 @@
   },
   {
     "id": 5,
-    "title": "Qa",
+    "title": "QA",
     "company": "Matellio",
     "experience": "2-4 Year",
     "location": "Jaipur (Rajasthan),India",
@@ -54,7 +54,7 @@
     "title": "Backend Developer",
     "company": "Tech Alloys",
     "experience": "1-2.5 Years",
-    "location": "delhi ,india",
+    "location": "Delhi ,india",
     "lastDate": "2025-08-13",
     "description": "Backend developers need a combination of technical and soft skills to build and maintain the server-side logic of applications.",
     "skillRequired": "Programming Languages:\nBackend developers work with various languages like Python, Java, JavaScript (Node.js), PHP, Ruby, and Go. \nFrameworks:\nFamiliarity with backend frameworks like Django (Python), Spring (Java), Express (Node.js), or Ruby on Rails is essential for efficient development. \nDatabases:\nUnderstanding database management systems (DBMS) like MySQL, PostgreSQL, MongoDB, or Redis is crucial for storing and retrieving data. \nAPIs:\nKnowledge of API development and integration (REST, GraphQL) is necessary for enabling communication between different software systems. \nServers:\nBackend developers need to understand how servers work, including server management, deployment, and scaling. \nVersion Control:\nProficiency with version control systems like Git is essential for managing code changes and collaboration. \nTesting and Debugging:\nBackend developers must be skilled in testing and debugging their code to ensure application reliability and performance"
