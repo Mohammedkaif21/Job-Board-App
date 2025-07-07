@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "jodId": 4,
+    "name": "John Smith",
+    "email": "johnsmith@gmail.com",
+    "resume": "C:\\fakepath\\react-api-training.pdf",
+    "phone": "8974534252",
+    "message": "I have a good frontend skills with experience of 2.5 Years"
+  },
+  {
+    "id": 2,
+    "jodId": 2,
+    "name": "Mohd kaif",
+    "email": "kaif12@gmail.com",
+    "resume": "C:\\fakepath\\new.resume.txt",
+    "phone": "9089078909",
+    "message": "I am full stack developer with a experience of 2 years and ready to join your team"
+  },
+  {
+    "id": 3,
+    "jodId": 1,
+    "name": "Mohd kaif",
+    "email": "kaif2gmail.com",
+    "resume": "C:\\fakepath\\new.resume.txt",
+    "phone": "9089078909",
+    "message": "I am React developer with a experience of 2 years"
+  },
+  {
+    "id": 4,
+    "jodId": 3,
+    "name": "sam",
+    "email": "sam123@gmail.com",
+    "resume": "C:\\fakepath\\new.resume.txt",
+    "phone": "7867897799",
+    "message": "I am passionate Node.js developer and working from last 3 years in a big tech company and wanted to change it for my personal growth"
+  }
+]

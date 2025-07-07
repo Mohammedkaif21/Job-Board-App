@@ -8,6 +8,7 @@ const JobDetails = () => {
     const [job, setJobs] = useState(null);
 
     useEffect(() => {
+        
         axios.get(`http://localhost:5000/jobs/${id}`)
             .then(res => setJobs(res.data))
             .catch(err => {
@@ -15,17 +16,18 @@ const JobDetails = () => {
                 setJobs(undefined);
             });
     }, [id]);
-    if (!job) return <p className="container mt-4 text-danger text-center">Job not found</p>;
+    if (!job) return <p className="container mt-4 text-danger text-center">Job not Found</p>;
 
     return (
         <div className="container">
             <div className="card-body my-5">
                 <h2 className="card-title">{job.title}</h2>
                 <h4 className="card-subtitle mb-2 text-muted">{job.company}</h4>
-                <p className="card-text">{job.location}</p>
-                <p className="card-text small">{job.description}</p>
-                <p></p>
-                <button onClick={() => navigate(`/apply-job/${job.id}`)} className="btn btn-success">Apply now</button>
+                <p className="card-text pt-2">Experience: {job.experience}</p>
+                <p className="card-text">Lacation: {job.location}</p>
+                <p className="card-text ">Description: {job.description}</p>
+                <p className="card-text">Skill Required: {job.skillRequired}</p>
+                <button onClick={() => navigate(`/apply-job/${job.id}`)} className="btn btn-success w-25">Apply Now</button>
             </div>
         </div>
     )

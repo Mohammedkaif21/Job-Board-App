@@ -4,48 +4,44 @@
     "title": "Frontend Developer",
     "company": "Matellio",
     "location": "Jaipur, India",
-    "description": "React, Angular, Bootstrap, Css"
+    "experience": "1-3years",
+    "description": "It is opportunity to join our dynamic team",
+    "skillRequired": "Javascript,React.js"
   },
   {
     "id": 2,
     "title": "Full Stack Intern",
     "company": "Microlent",
     "location": "Jodhpur, India",
-    "description": "React, Node, PostgreSQL"
+    "experience": "3-6years",
+    "description": "Essential Full Stack Developer Skills For 2025 - ClaruswayFull-stack developers need a broad range of technical skills spanning both front-end and back-end development, as well as soft skills for effective teamwork and problem-solving. ",
+    "skillRequired": "Front-End Development:HTML, CSS, and JavaScript: These are foundational for building the user interface. JavaScript Frameworks/Libraries: React, Angular, or Vue.js are commonly used for building complex front-end applications.UI/UX Principles: Understanding basic design principles is important for creating user-friendly interfaces. Back-End Development:Server-Side Languages:Python, Java, Ruby, Node.js, or PHP are frequently used for back-end logic and server management. Frameworks:Frameworks like Django, Rails, Express.js, or Spring Boot help streamline back-end development. Databases:Full-stack developers should be comfortable with both SQL and NoSQL databases like MySQL, PostgreSQL, or MongoDB. API Development:RESTful APIs and potentially GraphQL are essential for communication between front-end and back-end. Other Essential Skills:Version Control (Git):Essential for collaboration and tracking changes in the codebase. "
   },
   {
     "id": 3,
-    "title": "Backend Developer",
-    "company": "TechPoint",
-    "location": "Jodhpur, India",
-    "description": "Node.js, Express, MongoDB"
+    "title": "Node js",
+    "company": "Matellio",
+    "experience": "2-5years",
+    "location": "jodhpur,india",
+    "description": "9 Must Have Node JS Developer Skills | The Ultimate ListA Node.js developer needs a mix of technical and soft skills. Key technical skills include proficiency in JavaScript, Node.js, and relevant frameworks like Express.js. They should also be comfortable with database management, RESTful API development, and security practices",
+    "skillRequired": "JavaScript Proficiency:Node.js is built on JavaScript, so a deep understanding of the language's syntax, functions, and asynchronous programming is essential.Node.js Core Knowledge:A strong grasp of Node.js architecture, its event loop, and the Node.js API is crucial.Frameworks (e.g., Express.js):Familiarity with Node.js frameworks like Express.js simplifies development by providing pre-built functionalities.API Development:Developing and consuming RESTful APIs is a core responsibility, enabling communication between Applications.Database Management:Node.js developers need to manage databases like MongoDB or MySQL for data storage and retrieval.Asynchronous Programming:Node.js relies on asynchronous programming (callbacks, promises, async/await) to handle multiple tasks concurrently and efficiently."
   },
   {
     "id": 4,
-    "title": "Php Developer",
-    "company": "TechPoint",
-    "location": "Jodhpur, India",
-    "description": "Php, Laravel"
+    "title": "Java Developer",
+    "company": "Matellio India Pvt. Ltd.",
+    "experience": "4-8 Year",
+    "location": "Jaipur, Rajasthan, India",
+    "description": "A Java developer needs a combination of technical and soft skills. Core Java knowledge, including object-oriented programming (OOP), is fundamental. ",
+    "skillRequired": "Core Java: Object-oriented programming (inheritance, polymorphism, encapsulation, abstraction), data structures (lists, sets, maps), exception handling, generics, Java 8 features (lambda expressions, streams), and concurrency.Java Frameworks: Spring (especially Spring Boot), Hibernate, Struts, and others.Web Technologies: Servlets, JSPs, RESTful APIs, HTML, CSS, JavaScript, and web application architecture.Databases: SQL (MySQL, PostgreSQL, etc.), NoSQL (MongoDB, etc.) and database management.Build Tools: Maven, Gradle.Version Control: Git. "
   },
   {
     "id": 5,
-    "title": "QA",
+    "title": "Qa",
     "company": "Matellio",
-    "location": "Jodhpur, India",
-    "description": "Unit testing, Smoke Testing"
-  },
-  {
-    "id": 6,
-    "title": "junior frontend developer",
-    "company": "xyz",
-    "location": "india",
-    "description": "i want a webdeveloper"
-  },
-  {
-    "id": 7,
-    "title": "Qa Lead",
-    "company": "abc",
-    "location": "india",
-    "description": "i want a qa lead"
+    "experience": "2-4 Year",
+    "location": "Jaipur (Rajasthan),India",
+    "description": "Quality Assurance (QA) roles require a combination of technical and soft skills .Essential soft skills encompass strong communication, problem-solving, analytical thinking, attention to detail, and adaptability. ",
+    "skillRequired": "Software Development Lifecycle (SDLC) and Software Testing Lifecycle (STLC):\nA solid understanding of these cycles is crucial for QA professionals. \nTesting Types:\nKnowledge of various testing types like functional, performance, security, and regression testing is essential. \nTesting Tools:\nProficiency in tools like Selenium, LoadRunner, JIRA, and other relevant testing and bug-tracking software is important. \nScripting and Automation:\nBasic programming skills (e.g., Java, Python, SQL) and the ability to write test scripts and implement automated testing are valuable. \nDatabase/SQL:\nUnderstanding database management and SQL queries for data validation is often required. "
   }
 ]

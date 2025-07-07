@@ -19,7 +19,17 @@
     background-color: rgb(230, 230, 55);
 }
 .socialLink :hover{
-    color: blue;
+    color:rgb(38, 23, 172);
+    text-decoration: underline;
+
     cursor: pointer;
 }
-
+.btn{
+    width: 44%;
+}
+.cancel-btn{
+    top: 6px;
+    right: 10px;
+    font-weight: lighter;
+    cursor: pointer;
+}

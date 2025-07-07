@@ -1,10 +1,11 @@
 import axios from "axios";
 import { useState } from "react";
-import { useParams } from "react-router";
+import { useParams,useNavigate } from "react-router";
 
 
 export const ApplyJob =()=>{
     const {id} = useParams();
+    const navigate = useNavigate();
     const [applyData,setApplyData] = useState({
         name:"",
         email:"",
@@ -27,6 +28,7 @@ export const ApplyJob =()=>{
                 ...applyData
             })
             alert("applied successfully")
+            navigate('/');
             setApplyData({
                 name:"",
                 email:"",
@@ -46,25 +48,26 @@ export const ApplyJob =()=>{
             <form className="col-md-8 m-auto border p-4 rounded shadow" onSubmit={submitData}>
                 <div className="mb-4">
                     <label className="form-label">Name</label>
-                    <input type="text" name="name" className="form-control" value={applyData.name} onChange={changeData}/>
+                    <input type="text" name="name" placeholder="Enter Full Name" className="form-control" value={applyData.name} onChange={changeData} required/>
                 </div>
                 <div className="mb-4">
                     <label className="form-label">Email</label>
-                    <input type="text" name="email" className="form-control" value={applyData.email} onChange={changeData}/>
+                    <input type="text" name="email" placeholder="Enter Email" className="form-control" value={applyData.email} onChange={changeData} required/>
                 </div>
                 <div class="mb-3">
                     <label class="form-label">Resume</label>
-                    <input type="file" class="form-control" name="resume" value={applyData.resume} onChange={changeData}/>
+                    <input type="file" placeholder="Enter Resume File" class="form-control" name="resume" value={applyData.resume} onChange={changeData} required/>
                 </div>
                 <div class="mb-3">
                     <label class="form-label">Phone no</label>
-                    <input type="text" class="form-control" name="phone" value={applyData.phone} onChange={changeData}/>
+                    <input type="text" placeholder="Enter Phone No" class="form-control" name="phone" value={applyData.phone} onChange={changeData} required/>
                 </div>
                 <div className="mb-4">
                     <label className="form-label">Cover Letter</label>
-                    <textarea className="form-control" name="message" value={applyData.message} onChange={changeData}></textarea>
+                    <textarea className="form-control" placeholder="Enter Message" name="message" value={applyData.message} onChange={changeData} ></textarea>
                 </div>
-                <button type="submit" className="btn btn-primary w-100">Submit Application</button>
+                <button type="button" className="btn btn-success ms-1 me-4 " onClick={()=> navigate(-1)}>Back</button>
+                <button type="submit" className="btn btn-success ">Submit</button>
             </form>
         </div>
     )
