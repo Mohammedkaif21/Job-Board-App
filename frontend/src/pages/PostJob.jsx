@@ -10,6 +10,7 @@ export const PostJob = ()=>{
         company:"",
         experience:"",
         location:"",
+        lastDate:"",
         description:"",
         skillRequired:""
     })
@@ -49,6 +50,10 @@ export const PostJob = ()=>{
                 <div className='mb-3'>
                     <label className='form-label'>Experience</label>
                     <input type="text" placeholder='Enter Experience' className="form-control" name="experience" value={jobDetails.experience} onChange={handleInput} required/>
+                </div>
+                <div className='mb-3'>
+                    <label className='form-label'>Last Date</label>
+                    <input type="date" placeholder='Enter Last date' className="form-control" name="lastDate" value={jobDetails.lastDate} onChange={handleInput} required/>
                 </div>
                 <div className='mb-3'>
                     <label className='form-label'>Location</label>

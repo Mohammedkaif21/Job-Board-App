@@ -25,6 +25,7 @@ const JobDetails = () => {
                 <h4 className="card-subtitle mb-2 text-muted">{job.company}</h4>
                 <p className="card-text pt-2">Experience: {job.experience}</p>
                 <p className="card-text">Lacation: {job.location}</p>
+                <p className="card-text">Last Date: {job.lastDate}</p>
                 <p className="card-text ">Description: {job.description}</p>
                 <p className="card-text">Skill Required: {job.skillRequired}</p>
                 <button onClick={() => navigate(`/apply-job/${job.id}`)} className="btn btn-success w-25">Apply Now</button>

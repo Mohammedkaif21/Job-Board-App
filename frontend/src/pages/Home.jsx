@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import file from '/Screenshot.png'
 import axios from 'axios'
+import {Link} from 'react-router'
 import { MdOutlineCancel } from "react-icons/md";
 
 
@@ -14,7 +15,7 @@ const Home = ()=>{
         .catch(err=> console.error("failed to fetch jobs",err));
     },[]);
     const result = jobs.filter(n=>n.title.toLowerCase().includes(search.toLowerCase()));
-    if (result.length < 0) return ;
+    // if (result.length < 0) return ;
     return (
         <div className="mt-0 pt-5">
             <div className="container-fluid">
