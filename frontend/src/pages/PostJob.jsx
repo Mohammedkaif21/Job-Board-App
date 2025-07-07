@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import axios from 'axios'
-import { Navigate, useNavigate } from 'react-router'
+import { useNavigate } from 'react-router'
 
 
 export const PostJob = ()=>{
@@ -35,7 +35,7 @@ export const PostJob = ()=>{
     }
 
     return (
-        <div className="container my-5">
+        <div className="container my-5 pt-4">
              <h2 className="mb-5 text-center">Post a New Job</h2>
              <form className="col-md-8 m-auto border p-5 rounded shadow" onSubmit={submitData}>
                 <div className='mb-3'>

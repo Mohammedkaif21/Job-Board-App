@@ -1,9 +1,8 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
 import file from '/Screenshot.png'
 import axios from 'axios'
 import { MdOutlineCancel } from "react-icons/md";
-import { ApplyJob } from "./ApplyJob";
+
 
 const Home = ()=>{
     const [jobs,setJobs] = useState([]);
@@ -17,7 +16,7 @@ const Home = ()=>{
     const result = jobs.filter(n=>n.title.toLowerCase().includes(search.toLowerCase()));
     if (result.length < 0) return ;
     return (
-        <div className="m-0">
+        <div className="mt-0 pt-5">
             <div className="container-fluid">
                 <div className="row justify-content-center">
                 </div>

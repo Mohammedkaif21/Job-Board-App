@@ -2,7 +2,6 @@ import axios from "axios";
 import { useState } from "react";
 import { useParams,useNavigate } from "react-router";
 
-
 export const ApplyJob =()=>{
     const {id} = useParams();
     const navigate = useNavigate();
@@ -43,7 +42,7 @@ export const ApplyJob =()=>{
     }
 
     return (
-        <div className="container my-5">
+        <div className="container my-5  pt-4">
             <h2 className="text-center mb-4">Apply for Job</h2>
             <form className="col-md-8 m-auto border p-4 rounded shadow" onSubmit={submitData}>
                 <div className="mb-4">

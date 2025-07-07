@@ -1,7 +1,6 @@
 
 
 const Faq = ()=>{
-
     return (
         <div className="accordion container mb-5" id="accordionExample">
             <div className="accordion-item">

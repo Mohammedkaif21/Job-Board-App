@@ -19,7 +19,7 @@ const JobDetails = () => {
     if (!job) return <p className="container mt-4 text-danger text-center">Job not Found</p>;
 
     return (
-        <div className="container">
+        <div className="container pt-4">
             <div className="card-body my-5">
                 <h2 className="card-title">{job.title}</h2>
                 <h4 className="card-subtitle mb-2 text-muted">{job.company}</h4>
