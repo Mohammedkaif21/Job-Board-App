@@ -1,19 +1,18 @@
 # Job-Board-App
- Mini Job Board App
- A full stack job board application built as Mini project of an internship to demonstrate proficiency.
+Mini Job Board App
+A full stack job board application built as Mini project of an internship to demonstrate proficiency.
 
- Objective
- Build a simple functional job board using React.js, Bootstrap in Frontend and Node.js with Express.jsfor ackend. The app allows users to post jobs, view job details, and applt for jobs.
+Objective
+Build a simple functional job board using React.js, Bootstrap in Frontend and Node.js with Express.js for backend.The app allows users to post jobs, view job details, and apply for jobs.
 
 Tech Stack
-Frontend : React.js(functional components with jooks) and Bootstrap for Ui design
+Frontend : React.js(functional components with Hooks) and Bootstrap for Ui design
 
 Backend : Node.js + Express.js
 
 Database : JSON file(in-memory storage)
 
 Routing : React Router
-
 
 Features 
 Home Page
@@ -88,7 +87,3 @@ https://github.com/Mohammedkaif21/Job-Board-App
 
 Developed By
 Name: [Mohd Kaif]
-Role: Intern
-Email: [mohd.kaif1003@gmail.com]
-GitHub: [https://github.com/Mohammedkaif21/Job-Board-App]
-
